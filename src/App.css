@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #C4C4C4;
+}
+
+.header img {
+    margin: 30px 50px;
+}
+
+.carrito {
+    display: flex;
+    margin: 20px;
+}
+.carrito img {
+    margin: 0 20px;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    width: 40%;
+    background-color: #F2F2F2;
+    border-radius: 10px;
+    padding: 25px;
+    margin: 30px;
+}
+
+.item span {
+    font-weight: 700;
+    margin-left: 20px;
+}
+
+.compra {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    background-color: #F2F2F2;
+    border-radius: 10px;
+    width: 400px;
+    height: 350px;
+    margin-top: -120px;
+    margin-left: 60%;
+    margin-bottom: 20px;
+}
+
+.compra button {
+    background-color: #4F4F4F;
+    color:  white;
+    font-weight: 700;
+    font-size: 17px;
+    width: 70%;
+    border-radius: 5px;
+    margin: auto;
+    padding: 10px;
+}
+
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 30px auto;
+
+}
+.questionsBottom {
+    background-color: #4F4F4F;
+    color:  white;
+    font-weight: 700;
+    font-size: 17px;
+    width: 70%;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.table {
+    width: 60%;
+    margin: auto;
+}
+
+.susbcribeCard {
+    padding: 10px 0;
+    background-color: #E0E0E0;
+    width: 320px;
+    border-radius: 20px;
+}
+
+.susbcribeCard h1 {
+    text-align: center;
+    color: #676767;
+    font-size: 28px;
+}
+
+.cardscontainer {
+ display: flex;
+ justify-content: center;
+ width: 95%;
+ margin: auto;
+}
+
+.logo {
+    max-width: 250px;
+}
+.info {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid 1px #797979;
+    padding: 20px 0;
+}
+
+.info img {
+    width: 40px;
+}
+
+.info span {
+    font-size: 20px;
+    width: 76%;
+}
+
+.info:nth-child(3) {
+    border: none !important;
+}
+
+
+.paySeccion {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.paySeccion span {
+    font-size: 25px;
+}
+
+.paySeccion img {
+    width: 100px;
+    margin: 30px 0;
+}
+
+.paySeccion a {
+    background-color: #4F4F4F;
+    border-radius: 5px;
+    width: 70%;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+.title {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 0;
+    width: 300px;
+    height: 150px;
+    background-color: #4F4F4F;
+    margin: 10px auto;
+    border-radius: 15px;
+}
+
+.card > h3 {
+    color:white;
+    margin: 10px;
+    text-align: center;
+}
